@@ -1,0 +1,75 @@
+extends layout
+
+block content
+      .hero
+        .slider
+          ul.slides
+            li.lazy-bg(data-background='images/sustainable_development_1.jpg')
+              .container.heading
+                h2.slide-title #{company}
+                h3.slide-subtitle #{companyFull}
+                p.slide-desc
+                  | At #{company}, we plan, acquire, process and use data to aid individual, professional and corporate social responsibitly in a sustainable environment and for development.
+                a.button.cut-corner(href='about') Read More
+            li.lazy-bg(data-background='images/sustainable_development_9.jpg')
+              .container
+                h2.slide-title #{company}
+                h3.slide-subtitle #{companyFull}
+                p.slide-desc
+                  | At #{company}, we promote small and medium scale development of environmentally and socially sustainable projects in biological, energy, gemstones, land, mineral, rock, soil, solar, water and wind resources for rural development and poverty alleviation.
+                a.button.cut-corner(href='about') Read More
+            li.lazy-bg(data-background='images/sustainable_development_3.jpg')
+              .container
+                h2.slide-title #{company}
+                h3.slide-subtitle #{companyFull}
+                p.slide-desc
+                  | We cooperate with stakeholders to promote socio-economically and environmentally sustainable development at #{company}.
+                a.button.cut-corner(href='about') Read More
+      main.main-content
+        .fullwidth-block.testimonial-section
+          .container
+            .quote-slider
+              ul.slides
+                li
+                  blockquote
+                    p
+                      | &quot;We at #{company}, saw that problems such as pollution, erosion, floods and other natural disaster were causing a lot of problems. We didn't like that and I started #{company} to change that.&quot;
+                    cite #{founder}
+                    span #{company} CEO
+                li
+                  blockquote
+                    p
+                      | &quot;I believe in the need for natural resources to be mined and for use by people. I also believe that those natural resources should be extracted and used in sustainable and environmentally safe ways. #{company} was started as a marriage of both ideas.&quot;
+                    cite #{founder}
+                    span #{company} CEO
+
+        .fullwidth-block.why-chooseus-section
+          .container
+            h2.section-title Why go with us?
+            .row
+
+              .col-md-4
+                .feature
+                  figure.cut-corner
+                    img(src='images/sustainable_development_2.jpg', alt='')
+                  h3.feature-title We provide state of the art musical equipment and facilities
+                  p
+                    | At #{company} since we look at sustainable and efficient ways to provide sufficient energy for people.
+
+              .col-md-4
+                .feature
+                  figure.cut-corner
+                    img(src='images/sustainable_development_5.jpg', alt='')
+                  h3.feature-title We provide easy access to our equipment
+                  p
+                    | #{company} helps people to produce food, extract natural resources and consume energy efficiently and safely. Find out more&nbsp;
+                    a.why-chooseus-section-link(href='contact') here
+                    | .
+
+              .col-md-4
+                .feature
+                  figure.cut-corner
+                    img(src='images/sustainable_development_8.jpg', alt='')
+                  h3.feature-title We allow aspiring artists to easily audition to get a contract
+                  p
+                    | #{company} helps corporate, government and charitable organisations to preserve national landmarks and tourist spots.

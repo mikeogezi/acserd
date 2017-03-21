@@ -1,0 +1,67 @@
+extends layout
+
+block content
+      main.main-content
+        .fullwidth-block.gallery
+          .container
+            .content.fullwidth
+              h2.entry-title Gallery
+              .filter-links.filterable-nav
+                select.mobile-filter
+                  option(value='*') Show all
+                  option(value='.project') Projects
+                  option(value='.people') Artists
+                  option(value='.miscellaneous') Miscellaneous
+                a.current(href='#', data-filter='*') Show all
+                a(href='#', data-filter='.project') Projects
+                a(href='#', data-filter='.people') People
+                a(href='#', data-filter='.miscellaneous') Miscellaneous
+              .filterable-items
+                .filterable-item.project
+                  a(href='images/sustainable_development_1.jpg')
+                    figure
+                      img(src='images/sustainable_development_1.jpg', alt='gallery 1')
+                .filterable-item.project
+                  a(href='images/sustainable_development_2.jpg')
+                    figure
+                      img(src='images/sustainable_development_2.jpg', alt='gallery 2')
+                .filterable-item.miscellaneous
+                  a(href='images/sustainable_development_3.jpg')
+                    figure
+                      img(src='images/sustainable_development_3.jpg', alt='gallery 3')
+                .filterable-item.project
+                  a(href='images/sustainable_development_4.jpg')
+                    figure
+                      img(src='images/sustainable_development_4.jpg', alt='gallery 4')
+                .filterable-item.people
+                  a(href='images/sustainable_development_5.jpg')
+                    figure
+                      img(src='images/sustainable_development_5.jpg', alt='gallery 5')
+                .filterable-item.miscellaneous
+                  a(href='images/sustainable_development_6.jpg')
+                    figure
+                      img(src='images/sustainable_development_6.jpg', alt='gallery 6')
+                .filterable-item.project
+                  a(href='images/sustainable_development_7.jpg')
+                    figure
+                      img(src='images/sustainable_development_7.jpg', alt='gallery 7')
+                .filterable-item.people
+                  a(href='images/sustainable_development_8.jpg')
+                    figure
+                      img(src='images/sustainable_development_8.jpg', alt='gallery 8')
+                .filterable-item.people
+                  a(href='images/sustainable_development_9.jpg')
+                    figure
+                      img(src='images/sustainable_development_9.jpg', alt='gallery 9')
+                .filterable-item.miscellaneous
+                  a(href='images/sustainable_development_10.jpg')
+                    figure
+                      img(src='images/sustainable_development_10.jpg', alt='gallery 10')
+                .filterable-item.people
+                  a(href='images/sustainable_development_11.jpg')
+                    figure
+                      img(src='images/sustainable_development_11.jpg', alt='gallery 11')
+                .filterable-item.miscellaneous
+                  a(href='images/sustainable_development_12.jpg')
+                    figure
+                      img(src='images/sustainable_development_12.jpg', alt='gallery 12')

@@ -1,0 +1,14 @@
+{
+    "name": "ACSERD Website",
+    "description": "Website for African Centre for Sustainable Environment And Resources Development (ACSERD)",
+    "repository": "https://github.com/okibeogezi/nanretmusicstudios",
+    "logo": "https://raw.githubusercontent.com/okibeogezi/acserd/master/public/images/favicon.png",
+    "keywords": [
+        "Sustainable Development",
+        "ACSERD",
+        "African",
+        "Nigeria",
+        "Resources"
+    ],
+    "image": "heroku/nodejs"
+}
